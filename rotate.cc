@@ -155,7 +155,7 @@ int main(int argc, char* argv[]) {
             shift++;
         }
             
-        // right-left diagonal scan TODO not working
+        // right-left diagonal scan
         red = 0;
         blue = 0;
         for (int jj = 0; jj < 2*N-1; jj++)
